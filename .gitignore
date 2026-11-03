@@ -1,0 +1,14 @@
+# virtual environments
+.venv/
+.venv-wsl/
+
+# secrets and generated key material: never commit these
+certs/
+broker/passwd
+lab_settings_local.py
+
+# generated at run time
+live_readings.csv
+__pycache__/
+*.pyc
+*.tmp

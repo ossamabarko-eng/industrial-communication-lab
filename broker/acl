@@ -1,0 +1,7 @@
+# the bridge may only PUBLISH motor data
+user bridge
+topic write lab/motor/#
+
+# the watcher may only READ motor data
+user watcher
+topic read lab/motor/#
